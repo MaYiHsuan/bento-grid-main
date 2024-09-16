@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=League+Spartan:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "DM Sans", sans-serif;
+    background-color: rgba(245, 245, 245, 1);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,260px);
+    grid-template-rows: 325px 245px 245px;
+    gap: 30px;
+}
+.text1 {
+    font-weight:500;
+    font-size: 42px;
+    line-height: 36px;
+    letter-spacing: -2px;
+}
+.purple-text {
+    font-style: italic;
+    font-weight:500;
+    color: hsl(256, 67%, 59%);
+}
+.yellow-box1 {
+    width: 260px;
+    height: 420px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: hsl(31, 66%, 93%);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.create-post {
+    margin-top: 25px;
+    height: 90px;
+}
+
+.yellow-box2 {
+    width: 260px;
+    height: 425px;
+    margin-right: 30px;
+    background-color: hsl(39, 100%, 71%);
+    padding: 25px;
+    border-radius: 10px;
+
+}
+.ai-content {
+    height:225px;
+    margin-top: 45px;
+}
+.purple-box1 {
+    grid-column: span 2;
+    background-color: hsl(256, 67%, 59%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.text2 {
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+.text-color {
+    color: hsl(39, 100%, 71%);
+}
+.text-style {
+    font-style: italic;
+}
+.five-stars {
+    height: 30px;
+    margin-top: 30px;
+}
+.text3 {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+.purple-box3 {
+    grid-row: span 2;
+    background-color: hsl(254, 88%, 90%);
+    padding-left: 30px;
+    padding-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.schedule-posts {
+    height: 320px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.multiple-platforms {
+    height: 70px;
+    margin-bottom: 10px;
+}
+.text5 {
+    font-size: 18px;
+    line-height: 20px;
+}
+.white-box1 {
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 25px;
+    padding-top: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.text4 {
+    font-weight:500;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    padding-right: 30px;
+}
+.text6 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.audience {
+    height: 70px;
+    margin-top: 35px;
+}
+.yellow-box3 {
+    background-color: hsl(39, 100%, 71%);
+    padding-left: 25px;
+    padding-top: 25px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.consistent-schedule {
+    width: 210px;
+    margin-top: 15px;
+}
+.purple-box2 {
+    grid-column: span 2;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+.grow-followers {
+    height: 200px;
+}
+.text7 {
+    color: hsl(0, 0%, 100%);
+    font-weight:500;
+    font-size: 42px;
+    line-height: 36px;
+    letter-spacing: -2px;
+    margin-left: 10px;
+}
