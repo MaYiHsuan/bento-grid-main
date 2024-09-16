@@ -2,9 +2,8 @@
 
 ![Design preview for the Bento grid coding challenge](./preview.jpg)
 
-## Welcome! 👋
+## Hello! 👋
+Welcome to Cindy's front-end coding challenge. I randomly tackle different projects on Frontend Mentor. Thank you for watching.
 
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-https://mayihsuan.github.io/bento-grid-main/
+## GitHub Pages
+You can view the live demo [here](https://mayihsuan.github.io/bento-grid-main/).
